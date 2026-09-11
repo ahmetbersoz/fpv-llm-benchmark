@@ -1,0 +1,109 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ffffff;
+  color: #4a4a4a;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-title {
+  font-weight: 700;
+  margin-bottom: 1.5rem !important;
+  font-size: 2.5rem !important;
+  line-height: 1.2;
+}
+
+@media (max-width: 1023px) {
+  .publication-title {
+    font-size: 1.75rem !important;
+  }
+  .publication-title br {
+    display: none;
+  }
+}
+
+.publication-authors {
+  font-family: 'Google Sans', sans-serif;
+  color: #363636;
+  margin-bottom: 0.5rem;
+}
+
+.author-block {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.publication-links {
+  margin-top: 1.5rem;
+}
+
+.link-block {
+  margin: 0 5px;
+}
+
+.link-block a {
+  transition: all 0.2s ease-in-out;
+}
+
+.link-block a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.teaser .subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 3rem 1.5rem;
+}
+
+.content h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+pre {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+.hero-image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.content .table-container {
+  margin-bottom: 2.5rem;
+}
+
+.result-figure {
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.result-figure img {
+  max-width: 100%;
+  max-height: 560px;
+}
+
+.result-figure figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.75rem;
+  font-style: normal;
+}

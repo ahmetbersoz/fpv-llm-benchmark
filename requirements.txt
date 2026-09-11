@@ -1,0 +1,5 @@
+openpyxl>=3.1.0
+numpy>=1.24
+scipy>=1.10
+# optional: per-metric chart PNGs from process_results
+matplotlib>=3.7
