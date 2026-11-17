@@ -1,6 +1,6 @@
 # LLM Benchmark for FPV Site Selection
 
-Companion repository for the manuscript *Evaluating Large Language Models as Decision Support Tools for Floating Photovoltaic Site Selection: A Multi-Model Benchmark* (under review).
+Companion repository for the manuscript LLM Benchmark for FPV Site Selection (under review).
 
 The benchmark evaluates Large Language Models as decision support tools for Floating Photovoltaic (FPV) site selection on hydroelectric reservoirs in Türkiye, using the expert-derived ranking of Haspolat et al. (2024) as ground truth.
 
